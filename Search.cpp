@@ -50,7 +50,7 @@ int main()
     for (int i = 0; i < sizeArr; i++) {
         cout << words[i] << " ";
     }
-    cout << "\n\n file.txt = " << findWord("file.txt", *&words, sizeArr);
-    cout << "\n\n file02.txt = " << findWord("file02.txt", *&words, sizeArr);
+    cout << "\n\n file.txt = " << findWord("empty", *&words, sizeArr);
+    cout << "\n\n file02.txt = " << findWord("empty", *&words, sizeArr);
     return 0;
 }
